@@ -182,37 +182,29 @@ Expected result: The program identifies **Laptop** as the best-selling product.
 
 ## 12. Visual Documentation
 
-Add these screenshots to this report or GitHub repository:
-
 ### Screenshot 1 — Project Structure
-Show VS Code Explorer with:
 
-```text
-sales_analysis.py
-sales_data.csv
-analysis_report.md
-requirements.txt
-```
+The screenshot below shows the project structure in VS Code, including the required project files.
+
+![Project Structure](screenshots/sales_analysis_structure.png)
 
 ### Screenshot 2 — Python Code
-Show the main Pandas code in `sales_analysis.py`.
+
+The screenshot below shows the main Python and Pandas code used for the sales data analysis.
+
+![Python Code](screenshots/sales_analysis_py_code.png)
 
 ### Screenshot 3 — Program Output
-Show the terminal after:
 
-```bash
-python sales_analysis.py
-```
+The screenshot below shows the successful execution of the Python program and the final sales analysis results.
 
-The screenshot should include the final results.
+![Program Output](screenshots/sales_analysis_terminal_result.png)
 
 ### Screenshot 4 — Pandas Installation
-Show the successful command:
 
-```bash
-pip install -r requirements.txt
-```
+The screenshot below shows the successful installation of the required Pandas dependency using the requirements file.
 
+![Pandas Installation](screenshots/sales_analysis_requirements.png)
 ## 13. Conclusion
 
 This project successfully demonstrates the beginner-level data analysis process using Python and Pandas. The dataset was loaded from CSV, explored, checked for missing values and duplicates, cleaned, and analyzed.
